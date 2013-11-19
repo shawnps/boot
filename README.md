@@ -1,4 +1,4 @@
 boot
 ====
 
-Chrome extension that adds Bootstrap CDN and wraps the body in `<div class="container">` on the current tab.
+Chrome extension that adds Bootstrap CDN and adds `<div class="container">` after `<body>` on the current tab.
