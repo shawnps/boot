@@ -1,0 +1,15 @@
+{
+  "name": "Boot",
+  "description": "Add Bootstrap CDN and wrap body of page in container div.",
+  "version": "1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["http://*/"],
+      "js": ["boot.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
